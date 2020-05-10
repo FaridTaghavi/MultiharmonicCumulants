@@ -1,7 +1,11 @@
 # MultiharmonicCumulants_v1.1
 
-Author: Seyed Farid Taghavi
-Date: May 9, 2020
+Author: Seyed Farid Taghavi,
+
+Technical University of Munich,
+Dense and Strange Hadronic Matter Group,
+
+Date: May 9, 2020,
 
 The package is prepared by Mathematica 12.0 to generate all possible multi-harmonic cumulants applicable in heavy-ion physics by employing the generating function method.
 It contains the following function:
