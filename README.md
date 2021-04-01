@@ -1,32 +1,29 @@
-# MultiharmonicCumulants_v1.1
+MultiharmonicCumulants_v2 _ 0.m
 
-Author: Seyed Farid Taghavi,
+Author: Seyed Farid Taghavi
+Date: April 1, 2021
 
-Technical University of Munich,
-Dense and Strange Hadronic Matter Group,
-
-Date: May 9, 2020,
-
-The package is prepared by Mathematica 12.0 to generate all possible multi-harmonic cumulants applicable in heavy-ion physics by employing the generating function method.
-It contains the following function:
-
-	c[ cumulant_order _list, phase_list , harmonic_list , flow_amplitude _symbole , flow_phase _symbol ]            
-	 --->    cumulant written in terms of symbolic moments.
+The package is prepared by Mathematica 12.0 to generate all possible multiharmonic cumulants applicable in heavy-ion physics by employing the generating function method.
+The package contains the following functions:
+	1. c,
+	2. cCorr,
+	3. cQvec,
+	4. cMean,
+	5. cTable,
+	6. ncQvec,
+	7. ncMean,
+	8. ncCorr,
+	9. Nsigma2,
+	10. Nsigma2Mean,
+	11. Nsigma2Qvec,
+	12. Nsigma2P.
 	
-	cCorr[ cumulant_order _list, phase_list , harmonic_list , correlation_symbol ]                            
-	 --->    cumulant written in terms of correlations.
+To run, save the package togther with a Mathematica notebook (example.nb for instance) in a same folder. By the following lines in the notebook the functions in the package are accessible:
+
+	SetDirectory[NotebookDirectory[]];
+	<<MultiharmonicCumulants_v2_ 0.m
 	
-	cTable[ harmonic_list , maximum_order , flow_amplitude _symbole , flow_phase _symbol ]                                                
-	--->    all cumulants with order between 2 to maximum_order in terms of symbolic moments.
-	
-	cTable[ harmonic_list , minimum_order , maximum_order , flow_amplitude _symbole , flow_phase _symbol ]                               
-	 --->   all cumulants with order between minimum_order to maximum_order written in terms of symbolic moments.
-	 
-	Nsigma2Moment[ correlated_harmonics _list , flow_amplitude _symbole , flow_phase _symbole , multiplicity_symbol ]                      
-	 --->   Number of events multiplied by statistical uncertainty square of correlator <<correlated_harmonic_list>> written in terms of symbolic moments.
-	 
-	Nsigma2Moment[ moment_order _list, phase_list , harmonic_list , flow_amplitude _symbole , flow_phase _symbol , multiplicity_symbol ]
-	 --->   Number of events multiplied by statistical uncertainty square of correlator moment[moment_order _list, phase_list , harmonic_list] written in terms of symbolic moments.
-	 
-	Nsigma2MomentCorr[ correlated_harmonics _list , correlation_symbol , multiplicity_symbol ]                                            
-	--->    Number of events multiplied by statistical uncertainty square of correlator <<correlated_harmonic_list>> written in terms of correlat
+An explaination for each function can be obtained by adding a "?" at the beginning of the function's name. For instance,
+	?cQvec	
+returns	
+	cQvec[cumulant_order _list , phase_list, harmonic_list , multiplicity_symbole , Q-vector_symbol]: cumulant written in terms of Q-vectors.
