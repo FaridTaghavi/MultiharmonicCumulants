@@ -24,6 +24,6 @@ To run, save the package togther with a Mathematica notebook (example.nb for ins
 	<<MultiharmonicCumulants_v2_ 0.m
 	
 An explaination for each function can be obtained by adding a "?" at the beginning of the function's name. For instance,
-	?cQvec	
+	?cQvec
 returns	
 	cQvec[cumulant_order _list , phase_list, harmonic_list , multiplicity_symbole , Q-vector_symbol]: cumulant written in terms of Q-vectors.
