@@ -5,6 +5,7 @@ Date: April 1, 2021
 
 The package is prepared by Mathematica 12.0 to generate all possible multiharmonic cumulants applicable in heavy-ion physics by employing the generating function method.
 The package contains the following functions:
+
 	1. c,
 	2. cCorr,
 	3. cQvec,
