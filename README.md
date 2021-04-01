@@ -22,6 +22,10 @@ To run, save the package together with a Mathematica notebook (example.nb for in
 
 	SetDirectory[NotebookDirectory[]];
 	<<MultiharmonicCumulants_v2_ 0.m
+As an example:
+	
+	in[]:= cCorr[{3, 1, 1, 1}, {4, 5, -6}, {3, 4, 5, 6}, corr]
+	out[]= -corr[-3, 3] (corr[-6, -3, 4, 5] + corr[-5, -4, 3, 6]) + 1/2 (corr[-6, -3, -3, 3, 4, 5] + corr[-5, -4, -3, 3, 3, 6])
 	
 An explaination for each function can be obtained by adding a "?" at the beginning of the function's name. For instance,
 
