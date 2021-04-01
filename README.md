@@ -1,7 +1,7 @@
 MultiharmonicCumulants_v2 _ 0.m
 
 Author: Seyed Farid Taghavi
-Date: April 1, 2021
+Date: April 2, 2021
 
 The package is prepared by Mathematica 12.0 to generate all possible multiharmonic cumulants applicable in heavy-ion physics by employing the generating function method.
 The package contains the following functions:
