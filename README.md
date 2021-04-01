@@ -18,12 +18,14 @@ The package contains the following functions:
 	11. Nsigma2Qvec,
 	12. Nsigma2P.
 	
-To run, save the package togther with a Mathematica notebook (example.nb for instance) in a same folder. By the following lines in the notebook the functions in the package are accessible:
+To run, save the package together with a Mathematica notebook (example.nb for instance) in the same folder. By running the following lines in the notebook, the functions in the package are accessible:
 
 	SetDirectory[NotebookDirectory[]];
 	<<MultiharmonicCumulants_v2_ 0.m
 	
 An explaination for each function can be obtained by adding a "?" at the beginning of the function's name. For instance,
+
 	?cQvec
 returns	
+
 	cQvec[cumulant_order _list , phase_list, harmonic_list , multiplicity_symbole , Q-vector_symbol]: cumulant written in terms of Q-vectors.
