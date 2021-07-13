@@ -17,12 +17,13 @@ The package contains the following functions:
 	9. Nsigma2,
 	10. Nsigma2Mean,
 	11. Nsigma2Qvec,
-	12. Nsigma2P.
+	12. Nsigma2P,
+	13. cppInterpreter.
 	
 To run, save the package together with a Mathematica notebook (example.nb for instance) in the same folder. By running the following lines in the notebook, the functions in the package are accessible:
 
 	SetDirectory[NotebookDirectory[]];
-	<<MultiharmonicCumulants_v2_ 0.m
+	<<MultiharmonicCumulants_v2_ 1.m
 As an example:
 	
 	in[]:= cCorr[{3, 1, 1, 1}, {4, 5, -6}, {3, 4, 5, 6}, corr]
